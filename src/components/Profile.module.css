@@ -1,0 +1,49 @@
+.profileContainer {
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.imageContainer {}
+
+.heroImage {
+    border-radius: 50%;
+    background-color: rgb(63, 62, 62);
+}
+
+.heroInfo {
+    color: rgb(94, 94, 94);
+}
+
+.heroList {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.stats{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.statsItem{
+    border: solid, 2px, #4c4c4c;
+    background-color: rgb(206, 206, 206);
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.itemSpanOne{
+    font-size: 14px;
+}
+.itemSpanTwo{
+    
+    font-weight: 700;
+}
