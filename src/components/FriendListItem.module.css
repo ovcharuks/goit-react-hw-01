@@ -1,0 +1,16 @@
+.friendContainer {
+    border: solid, 2px, #000;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.statusOnline {
+    color: aqua;
+}
+
+.statusIsOffline {
+    color: firebrick;
+}
+.statusIsOffline, .statusOnline{
+    font-size: small;
+}
