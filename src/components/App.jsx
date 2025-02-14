@@ -18,6 +18,7 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
+      console.log(friends);
       <TransactionHistory items={transactions} />
     </>
   );
